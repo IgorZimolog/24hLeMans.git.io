@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24h Le Mans</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1>24h de Le Mans</h1>
+        </div>
+    </header>
+    <video id="background-video" autoplay loop controls>
+        <source src="./video/2019-24-Hours-of-Le-Mans-Teaser.mp4"  type="video/mp4">
+    </video>
+    <script>
+        // Obtenha a referência ao elemento de vídeo
+        var video = document.getElementById("background-video");
+        // Ajuste o volume (0.2 é um exemplo, você pode ajustar conforme necessário)
+        video.volume = 0.2;
+    </script>
+    <div class="overlay"></div>
+    <div class="links">
+        <a href="#">História</a>
+        <a href="#">Carros</a>
+        <a href="#">Equipes</a>
+    </div>
+</body>
+</html>
